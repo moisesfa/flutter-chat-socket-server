@@ -1,8 +1,6 @@
 const { response } = require ('express');
 const Usuario = require('../models/usuario');
 
-
-
 const getUsuarios = async ( req, res = response  ) => {
 
     // Implementar paginaciones 
